@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Admin Dashboard</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">User Mangement</a></li>
+            <li><a href="">Site Settings</a></li>
+            <li><a href="">Reports</a></li>
+        </ul>
+    </section>
+
+
+    <section>
+        <header>
+            <h2>User Management</h2>
+            <p>Create, edit, or delete users.</p>
+        </header>
+   
+        <form action="">
+            <fieldset>
+                <legend>Step 1: UserDetails</legend>
+                <label for="username">Username:</label>
+                <input id="username" type="text">
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+            </fieldset>
+            <fieldset>
+                <legend>Step 2: Assign Role</legend>
+                <label for="role">Role:</label>
+                <select name="role" id="role">
+                    <option value="Super Admin">Super Admin</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Editor">Editor</option>
+                    <option value="Viewer">Viewer</option>
+    
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Step 3: Permissions</legend>
+                <input id="users" type="checkbox">
+                <label for="users">Manage users</label>
+                <input type="checkbox" id="reports">
+                <label for="reports">View Reports</label>
+            </fieldset>
+            <input type="button" id="btn" value="Submit">
+        </form>
+    </section>
+
+    <section>
+        <h2>Site Settings</h2>
+        <details>
+            <summary>General Settings</summary>
+            <p>Configure site-wide options</p>
+            <form action="">
+                <label for="site-title">Site Title:</label>
+                <input id="site-title" type="text">
+                <label for="contact-email">Contact Email:</label>
+                <input id="contact-email" type="email">
+            </form>
+        </details>
+        <details>
+            <summary>Security Settings</summary>
+            <p>Set password policies and login rules</p>
+            <label for="password-length">Min Password Length</label>
+            <input type="number">
+            <input type="checkbox" id="symbols">
+            <label for="symbols">Require mixed-case symbols</label>
+        </details>
+    </section>
+
+    <section>
+        <h2>Reports</h2>
+        <table>
+            <caption>Site Activity Report</caption>
+            <tr>
+                <th>Date</th>
+                <th>Active users</th>
+                <th>New Registrations</th>
+                <th>Erros Logged</th>
+            </tr>
+            <tr>
+                <td>June 1, 2025</td>
+                <td>124</td>
+                <td>12</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>Total</th>
+                <td>__</td>
+                <td>__</td>
+                <td>__</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>

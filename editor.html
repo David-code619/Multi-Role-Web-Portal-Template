@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>Editor Dashboard</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Create Article</a></li>
+        <li><a href="">Edit Article</a></li>
+        <li><a href="">Media Library</a></li>
+    </ul>
+
+    <h2>Create New Article</h2>
+    <p>Use this form to draft and submit a new article</p>
+    <form action="">
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+        <label for="category">Category:</label>
+        <select name="category" id="category">
+            <option value="news">News</option>
+            <option value="opinion">Opinion</option>
+            <option value="features">Features</option>
+        </select>
+        <label for="article">Body</label>
+        <textarea name="article" id="article" rows="10" cols="30"></textarea>
+    </form>
+
+    <h2>Edit Existing Articles</h2>
+    <table>
+        <caption>Draft Articles</caption>
+        <tr>
+            <th>Article ID</th>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Breaking: HTML- Only Portal</td>
+            <td>Draft</td>
+            <td>
+                <a href="">Edit</a> | <a href="">Delete</a>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Media Library</h2>
+    <p>Upload images or embed video placeholders</p>
+    <img src="" alt="Sample image">
+    <p>Sample image description</p>
+    <iframe src="" frameborder="1"></iframe>
+    <p>Sample video description</p>
+
+</body>
+</html>
