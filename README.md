@@ -57,9 +57,9 @@ message. For major changes, open an issue first.
 [MIT License](https://github.com/yourusername/multi-role-web-portal/LICENSE)
 ## Contact
 
-Created with ❤️ by [Your Name]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: [your.email@example.com](mailto:your.email@example.com)
+Created with ❤️ by Obayi David
+- GitHub: [@David-code619](https://github.com/David-code619)
+- Email: [obayidavid02@gmail.com](mailto:your.obayidavid02@gmail.com)
 ## Acknowledgments
 
 - Layout inspired by modern web portal designs.
